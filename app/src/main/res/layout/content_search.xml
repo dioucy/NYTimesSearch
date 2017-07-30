@@ -7,8 +7,6 @@
     tools:context="com.example.jerry.nytimessearch.activities.SearchActivity"
     tools:showIn="@layout/activity_search">
 
-
-
     <EditText
         android:id="@+id/etQuery"
         android:layout_width="500dp"
@@ -22,6 +20,8 @@
         android:layout_height="wrap_content"
         android:onClick="onArticleSearch"
         android:text="@string/search"
+        android:textColor="#FFFAF0"
+        android:backgroundTint="#FF00FF"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
          />

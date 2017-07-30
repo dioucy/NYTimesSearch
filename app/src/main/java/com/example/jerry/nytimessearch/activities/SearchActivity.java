@@ -27,13 +27,14 @@ import java.util.ArrayList;
 
 import cz.msebera.android.httpclient.Header;
 
-public class SearchActivity extends AppCompatActivity {
+public class SearchActivity extends AppCompatActivity  {
+
 
     EditText etQuery;
     GridView gvResults;
     Button btnSearch;
 
-     ArrayList<Article> articles;
+    ArrayList<Article> articles;
     ArticleArrayAdapter adapter;
 
     @Override
@@ -45,27 +46,31 @@ public class SearchActivity extends AppCompatActivity {
 
 
         setupViews();
-    }
+      }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_search,menu);
-        //return super.onCreateOptionsMenu(menu);
 
-        return true;
-    }
+        @Override
+        public boolean onCreateOptionsMenu (Menu menu){
+            getMenuInflater().inflate(R.menu.menu_search, menu);
+            //return super.onCreateOptionsMenu(menu);
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings){
             return true;
         }
-        return super.onOptionsItemSelected(item);
-    }
+
+        @Override
+        public boolean onOptionsItemSelected (MenuItem item){
+
+            int id = item.getItemId();
+
+            if (id == R.id.action_settings) {
+                Intent intent = new Intent(SearchActivity.this, SettingActivity.class);
+                startActivity(intent);
+                return true;
+            }
+            return super.onOptionsItemSelected(item);
+        }
+
 
     public void setupViews(){
 
@@ -90,9 +95,6 @@ public class SearchActivity extends AppCompatActivity {
         });
 
     }
-
-
-
 
 
     public void onArticleSearch(View view) {
