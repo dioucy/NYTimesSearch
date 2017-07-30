@@ -48,7 +48,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://imgur.com/rGGKzJV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='http://imgur.com/vkYUNdf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/QKpmjOa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <img src='http://imgur.com/Q9egSzp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
