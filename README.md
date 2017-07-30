@@ -9,8 +9,8 @@ Time spent: **10** hours spent in total
 The following **required** functionality is completed:
 
 * [x] User can **search for news article** by specifying a query and launching a search. Search displays a grid of image results from the New York Times Search API.
-* [x] User can click on "settings" which allows selection of **advanced search options** to filter results
-* [x] User can configure advanced search filters such as:
+* [X] User can click on "settings" which allows selection of **advanced search options** to filter results
+* [X] User can configure advanced search filters such as:
   * [x] Begin Date (using a date picker)
   * [x] News desk values (Arts, Fashion & Style, Sports)
   * [x] Sort order (oldest or newest)
@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 * [ ] Implements robust error handling, [check if internet is available](http://guides.codepath.com/android/Sending-and-Managing-Network-Requests#checking-for-network-connectivity), handle error cases, network failures
 * [ ] Used the **ActionBar SearchView** or custom layout as the query box instead of an EditText
 * [ ] User can **share an article link** to their friends or email it to themselves
-* [ ] Replaced Filter Settings Activity with a lightweight modal overlay
+* [x] Replaced Filter Settings Activity with a lightweight modal overlay
 
 The following **bonus** features are implemented:
 
@@ -46,7 +46,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/rGGKzJV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='http://imgur.com/vkYUNdf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='http://imgur.com/Q9egSzp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
